@@ -54,13 +54,13 @@ int main() {
 
     for (int i = 0 ; i < 2 ; i++) {
         printf( "Person %c\n", 'A' + i ) ;
-        printf( "Name : " ) ;
+        printf( "Name : \n" ) ;
         scanf ( "%s", p[i] . Name ) ;
-        printf( "Age : " ) ;
+        printf( "Age : \n" ) ;
         scanf ( "%d", &p[i] . Age ) ;
-        printf( "Sex : " ) ;
+        printf( "Sex : \n" ) ;
         scanf ( " %c", &p[i] . Sex ) ;
-        printf( "Score : ") ;
+        printf( "Score : \n") ;
         scanf ( "%f", &p[i].Score ) ;
     }//end for
 
