@@ -45,7 +45,7 @@
 struct Person {
     char Name[20] ;
     int Age ;
-    int Sex ;
+    char Sex ;
     float Score ;
 } ;
 
