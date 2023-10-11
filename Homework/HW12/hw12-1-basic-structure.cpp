@@ -66,10 +66,10 @@ int main() {
 
     for (int i = 0 ; i < 2 ; i++) {
         printf("\n--| Person %c Information |--\n", 'A' + i) ; 
-        printf("Name : %s (%c)\n", p[i].Name, p[i].Sex) ;
-        printf("Age : %d years old\n", p[i].Age) ;
-        printf("Score : %.2f points\n", p[i].Score) ; 
+        printf("Name : %s (%c)\n", p[i] . Name, p[i] . Sex) ;
+        printf("Age : %d years old\n", p[i] . Age) ;
+        printf("Score : %.2f points\n", p[i] . Score) ; 
     }//end for
 
     return 0 ;
-}
+}//end function
